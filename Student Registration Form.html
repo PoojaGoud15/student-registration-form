@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#eef5ff;
+    padding:30px;
+}
+
+h2{
+    text-align:center;
+    color:#0f4c81;
+    margin-bottom:25px;
+    letter-spacing:1px;
+}
+
+div{
+    max-width:850px;
+    margin:auto;
+    background-color:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    border-top:6px solid #1f3c88;
+    box-shadow:0 4px 15px rgba(0,0,0,0.12);
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+    color:#374151;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+input[type=date]{
+    width:100%;
+    padding:12px 15px;
+    border:1px solid #d1d5db;
+    border-radius:6px;
+    font-size:15px;
+    color:#333;
+    transition:0.3s;
+}
+
+input::placeholder{
+    color:#9ca3af;
+}
+
+input:focus{
+    outline:none;
+    border-color:#2563eb;
+    box-shadow:0 0 8px rgba(37,99,235,0.25);
+}
+
+input[type=submit]{
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+    background:linear-gradient(135deg,#1f3c88,#2563eb);
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+input[type=submit]:hover{
+    background:linear-gradient(135deg,#163172,#1d4ed8);
+    transform:translateY(-2px);
+}
+
+input[type=submit]:active{
+    transform:scale(0.98);
+}
+
+    </style>
+</head>
+<body>
+    <h2>🎓STUDENT REGISTRATION FORM</h2>
+        <div>
+        
+            <form action="/">
+                <label for="name">Name of the Student :</label>
+                <input type="text"name="Name"placeholder="Enter your Name">
+
+                <label for="H.No">Hall Ticket Number   :</label>
+                <input type="text"name="H.No"placeholder="Enter your Hall Ticket Number">
+
+
+                <label for="clg">Name of the college  :</label>
+                <input type="text"name="clg"placeholder="Enter your college Name">
+
+
+                <label for="Department">  Name of the Department :</label>
+                <input type="text"name="Department"placeholder="Enter your Department Name">
+
+                <label for="Year">Year :</label>
+                <input type="text"name="year"placeholder="Year of pursuing">
+
+                <label for="Sec">Section :</label>
+                <input type="text"name="sec"placeholder="Enter your Section of class">
+
+                <label for="phno">Phone Number   :</label>
+                <input type="tel"name="phno"placeholder="Enter your Phone Number">
+
+                <label for="DOB"> Date of Birth :</label>
+                <input type="date"name="DOB"placeholder="Enter your Date of Birth">
+
+
+                <label for="Email"> Email id  :</label>
+                <input type="email"name="Email"placeholder="Enter your E-mail id">
+
+                <label for="Password"> Password  :</label>
+                <input type="password"name="Password"placeholder="Enter your Password">
+
+                <br>
+
+<input type="submit" value="Submit">
+
+            </form>
+        
+    </div>
+
+    
+</body>
+</html>
+
+    
